@@ -2,10 +2,15 @@
     --main-font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 form {
     height: 30vh;
     font-family: var(--main-font);
-    margin-left: 20px;
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +34,7 @@ input:invalid {
 
 button {
     padding: 15px 35px;
-    margin: 25px 20px; 
+    margin: 25px 50px; 
     background-color: lightblue;
     color: white;
 }
@@ -95,7 +100,7 @@ button {
 }
 
 .existing-account {
-    margin-left: 25px; 
+    margin-left: 50px; 
     font-size: 1.3em;
     font-family: var(--main-font);
 }
