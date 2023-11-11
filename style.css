@@ -30,16 +30,34 @@ input:invalid {
 button {
     padding: 15px 35px;
     margin: 25px 20px; 
+    background-color: lightblue;
+    color: white;
 }
 
 .whole {
     display: flex;
+    
 }
 
 .first {
+    display: flex;
+    align-items: center;
     width: 30vw;
     height: 100vh;
     background-image: url(https://images.unsplash.com/photo-1541323421480-68513be3d209?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    color: rgb(255 255 255 / .7);
+    background-color: rgba(196, 197, 198, 0.8);
+}
+
+.sf {
+    opacity: .7;
+    height: 200px;
+    width: 200px;
 }
 
 .second {
@@ -55,6 +73,10 @@ button {
     height: 20vh;
     text-align: center;
     padding: 50px 20px 0px 20px;
+}
+
+.action {
+    font-size: 1.8rem;
 }
 
 .formline{
