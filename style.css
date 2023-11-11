@@ -1,0 +1,79 @@
+:root {
+    --main-font: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    height: 30vh;
+    font-family: var(--main-font);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+label {
+    font-size: .8em;
+    padding-top: 2em;
+    letter-spacing: .1em;
+}
+
+input {
+    width: 13vw;
+    height: 3vh;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+button {
+    padding: 15px 35px;
+    margin: 25px 20px; 
+}
+
+.whole {
+    display: flex;
+}
+
+.first {
+    width: 30vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1541323421480-68513be3d209?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.second {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.third {
+    font-size: 1.5rem;
+    font-family: var(--main-font);
+    background-color: rgb(247 249 250);
+    height: 20vh;
+    text-align: center;
+    padding: 50px 20px 0px 20px;
+}
+
+.formline{
+    display: flex;
+    gap: 24px;
+}
+
+.inputlab {
+    display: flex;
+    flex-direction: column;
+}
+
+.last {
+    background-color: rgb(247 249 250);
+    height: clamp(20vh, 40%, 60vh);
+}
+
+.existing-account {
+    margin-left: 25px; 
+    font-size: 1.3em;
+    font-family: var(--main-font);
+}
